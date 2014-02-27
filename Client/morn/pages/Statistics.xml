@@ -1,0 +1,12 @@
+<View sceneWidth="600" sceneHeight="400" sceneColor="0xffffff" sceneBg="" layers="1,1,0,0,第 1 层">
+  <Image url="png.comp.bg2" layer="1" width="282" height="230" sizeGrid="3,5,3,5"/>
+  <Image y="117" layer="1" width="160" height="109" var="palette" rotationX="60" x="87"/>
+  <Label text="今日点餐统计：" x="7" y="8" layer="1"/>
+  <Button label="关闭" skin="png.comp.button" x="202" y="202" layer="1" var="btnClose" width="75" height="23"/>
+  <Button label="刷新" skin="png.comp.button" x="120" y="202" layer="1" var="btnRefresh" width="75" height="23"/>
+  <List layers="1,1,0" layer="1" x="167" y="67" var="lsb" repeatY="5">
+    <Box layers="1,1,0" layer="1" name="render">
+      <Label text="番茄炒蛋" layer="1" name="lab"/>
+    </Box>
+  </List>
+</View>
